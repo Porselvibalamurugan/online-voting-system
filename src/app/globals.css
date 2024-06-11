@@ -2,18 +2,18 @@
  --bg: #c85780;
  --bgsoft:rgb(118, 118, 163);
   --text:rgb(240, 235, 235);
-  --btn:violet-light;
+  --btn:light blue;
 }
 
 body{
 
   background: hsla(171, 87%, 67%, 1);
 
-background: linear-gradient(90deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+background: linear-gradient(90deg, rgb(32, 226, 197) 0%, hsla(236, 100%, 72%, 1) 100%);
 
-background: -moz-linear-gradient(90deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+background: -moz-linear-gradient(90deg, rgb( 32, 226, 197) 0%, hsla(236, 100%, 72%, 1) 100%);
 
-background: -webkit-linear-gradient(90deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+background: -webkit-linear-gradient(90deg, rgb(32, 226, 197) 0%, hsla(236, 100%, 72%, 1) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#30C5D2", endColorstr="#471069", GradientType=1 );
 
@@ -22,6 +22,7 @@ background-size: cover;
 color: var(--text);
 }
 *{
+  font-family: ArialCalisto MT;
   top:0;
   padding:0;
   box-sizing:border-box;
@@ -30,3 +31,4 @@ a{
   text-decoration: none;
   color:inherit;
 }
+

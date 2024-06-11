@@ -1,0 +1,14 @@
+.container {
+  text-align: center;
+  border-radius: 20px;
+  padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+  cursor: pointer;
+}
+
+.active {
+  background: linear-gradient(
+    90deg,
+    rgb(75, 84, 208) 20%,
+    hsla(171, 87%, 67%, 1) 100%
+  );
+}

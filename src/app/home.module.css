@@ -1,0 +1,176 @@
+.head {
+  text-align: center;
+}
+
+.welcome {
+  display: inline-block;
+  overflow: hidden;
+  font-size: 4vw;
+  white-space: nowrap;
+}
+
+.showup {
+  animation: showup 7s forwards;
+}
+
+.later {
+  width: 0px;
+  animation: later 7s forwards;
+}
+
+.later span {
+  margin-left: -355px;
+  animation: slidein 7s forwards;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes later {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 50vw;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    width: 47vw;
+  }
+}
+
+.msg {
+  font-size: 2.1vw;
+
+  font-weight: 500;
+}
+.container {
+  display: flex;
+
+  padding: 50px;
+}
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  object-fit: contain;
+  height: 100%;
+  width: 10%;
+}
+.image {
+  border-radius: 10px;
+  width: 35vw;
+  height: 20vw;
+  
+}
+.textcontainer {
+  flex: 1;
+  
+  align-self: center;
+  font-size: 2vw;
+}
+
+.textcontainer span {
+  display: block;
+  animation: cc 0.5s forwards var(--d);
+  opacity: 0;
+  white-space: nowrap;
+}
+.msgcontainer {
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.msgcontainer span {
+  display: block;
+  opacity: 0;
+  animation: cc 0.5s forwards var(--d);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@keyframes cc {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  .imgcontainer {
+    display: none;
+  }
+  .textcontainer {
+    font-size: 3.0vw;
+      display: flex;
+    justify-content: center;
+  }
+  .msgcontainer{
+    font-size: 2.7vw;
+  }
+  .container{
+    font-size: 2.7vw;
+  }
+  .msg{
+    font-size: 2.5vw;
+  }
+.welcome{
+  font-size: 4vw;
+}
+}
+@media(max-width:640px){
+ 
+  .msgcontainer{
+    font-size: 2..7vw;
+  }
+  .textcontainer{
+    font-size: 3vw;
+  }
+  .msg{
+    font-size: 2.6vw;
+  }
+.welcome{
+  font-size: 4vw;
+}
+}
+
