@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div>
       <header className={styles.head}>
-        <div className={`${styles.welcome} ${styles.show}`}>Welcome</div>{" "}
+        <div className={`${styles.welcome} ${styles.show}`}>Welcome</div>
         <div className={`${styles.welcome} ${styles.later}`}>
-          <span> to the Online Voting System </span>
+          <span > to the Online Voting System </span>
         </div>
         <p className={styles.msg}>
           Your voice matters! Cast your vote securely and easily.

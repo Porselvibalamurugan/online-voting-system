@@ -1,0 +1,76 @@
+.form {
+  font-size: 2.5vh;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form div {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.txt {
+  font-size: 3.5vh;
+  text-align: center;
+}
+
+.form input {
+  width: 100%;
+
+  color: white;
+  font-size: 2.5vh;
+  flex: 1;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.37);
+  outline: none;
+  color: white;
+}
+
+.form input::placeholder {
+  color: white;
+}
+
+.form button {
+  margin-left: 32%;
+  background-color: rgba(255, 255, 255, 0.075);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 10px;
+  color: white;
+  font-size: 2.5vh;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: white;
+  color: #3673fd;
+  border-color: white;
+}
+.area {
+  width: 100%;
+  border-radius: 10px;
+  background: transparent;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.37);
+  padding: 10px;
+  font-size: 2.5vh;
+  color: #f4f4f4;
+}
+
+.area::placeholder {
+  color: white;
+}

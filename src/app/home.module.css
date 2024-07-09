@@ -96,11 +96,9 @@
   border-radius: 10px;
   width: 35vw;
   height: 20vw;
-  
 }
 .textcontainer {
   flex: 1;
-  
   align-self: center;
   font-size: 2vw;
 }
@@ -141,36 +139,34 @@
     display: none;
   }
   .textcontainer {
-    font-size: 3.0vw;
-      display: flex;
+    font-size: 3vw;
+    display: flex;
     justify-content: center;
   }
-  .msgcontainer{
+  .msgcontainer {
     font-size: 2.7vw;
   }
-  .container{
+  .container {
     font-size: 2.7vw;
   }
-  .msg{
+  .msg {
     font-size: 2.5vw;
   }
-.welcome{
-  font-size: 4vw;
+  .welcome {
+    font-size: 4vw;
+  }
 }
-}
-@media(max-width:640px){
- 
-  .msgcontainer{
+@media (max-width: 640px) {
+  .msgcontainer {
     font-size: 2.7vw;
   }
-  .textcontainer{
+  .textcontainer {
     font-size: 3vw;
   }
-  .msg{
+  .msg {
     font-size: 2.6vw;
   }
-.welcome{
-  font-size: 4vw;
+  .welcome {
+    font-size: 4vw;
+  }
 }
-}
-

@@ -1,0 +1,29 @@
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.topic {
+  text-align: center;
+  font-size: 6vh;
+}
+.topic p {
+  font-size: 3.5vh;
+}
+.button {
+  background-color: rgba(255, 255, 255, 0.075);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 10px;
+  color: white;
+  font-size: 3.0vh;
+  padding: 10px 20px;
+   border-radius: 10px;
+  cursor: pointer;
+  width: max-content;
+}
+.vote{
+  font-size: 4.5vh;
+}

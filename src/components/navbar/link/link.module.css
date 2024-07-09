@@ -8,6 +8,23 @@
 .mobileLinks {
   display: none;
 }
+.btn {
+  padding: 0.5vw 1.5vw;
+  cursor: pointer;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+}
+.btn:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(75, 84, 208) 20%,
+    hsla(171, 87%, 67%, 1) 100%
+  );
+}
 @media (max-width: 768px) {
   .container {
     display: none;
@@ -30,5 +47,4 @@
     gap: 10px;
     z-index: 1000;
   }
-  
 }

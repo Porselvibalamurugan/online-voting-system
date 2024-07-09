@@ -1,0 +1,26 @@
+.txt {
+  font-size: 4vh;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  flex-direction: column;
+  gap:25px;
+}
+.img {
+    margin-top: 20px;
+  border-radius: 15px;
+  height: auto;
+}
+.txtcontainer {
+  font-size: 4vh;
+}

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  gap: 70px;
+}
+.post {
+  flex: 2;
+}
+.form {
+  flex: 1;
+}
+/* @media (max-width: 300px) {
+  .container {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+} */
