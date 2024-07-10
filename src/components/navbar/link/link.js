@@ -30,7 +30,7 @@ export function Links({ session }) {
         })}
         {session?.user ? (
           <>
-            {session.isAdmin && (
+            {session?.isAdmin && (
               <Navlink link={{ title: "Admin", path: "/admin" }} />
             )}
             <form action={handleLogout}>
@@ -68,6 +68,18 @@ export function Links({ session }) {
           {Links.map((item) => {
             return <Navlink link={item} key={item.title} />;
           })}
+          {session?.user ? (
+            <>
+              {session?.isAdmin && (
+                <Navlink link={{ title: "Admin", path: "/admin" }} />
+              )}
+              <form action={handleLogout}>
+                <button className={styles.btn}>Logout</button>
+              </form>
+            </>
+          ) : (
+            <Navlink link={{ title: "Login", path: "/login" }} />
+          )}
         </div>
       )}
     </div>

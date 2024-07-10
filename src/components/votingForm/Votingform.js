@@ -12,8 +12,8 @@ export default function Votingform({ posts }) {
       {!state?.success ? (
         <form className={styles.form} action={formAction}>
           <div className={styles.text}>Vote for the Candidates</div>
-          {posts.map((item) => (
-            <div className={styles.container}>
+          {posts.map((item, index) => (
+            <div key={index} className={styles.container}>
               <div className={styles.imgcontainer}>
                 <Image
                   src={item.img}

@@ -10,15 +10,26 @@ export const LoginForm = () => {
       <div className={styles.login}>Login</div>
       <div>
         <label>UserName:</label>
-        <input type="text" name="username" placeholder="Enter UserName" required />
+        <input
+          type="text"
+          name="username"
+          placeholder="Enter UserName"
+          required
+        />
       </div>
       <div>
         <label>Password:</label>
-        <input type="password" name="password" placeholder="Enter Password" required/>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter Password"
+          required
+        />
       </div>
       <div>
         <button>Login</button>
       </div>
+      <div>{state?.error}</div>
       <Link href="/register" className={styles.link}>
         {"Don't have an account?  "}
         <b>Register</b>

@@ -68,7 +68,7 @@ export const addCount = async (prevState, formdata) => {
     });
     await newCandidate.save();
     const session = await auth();
-    const userid = new ObjectId("" + session.id);
+    const userid = new ObjectId("" + session?.id);
     await User.findByIdAndUpdate(userid, { count: 1 }, { new: true });
     revalidatePath("/admin");
     revalidatePath("/dashboard");

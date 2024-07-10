@@ -5,14 +5,7 @@ import { PostCard } from "@/components/postCard/postCard";
 import Link from "next/link";
 import { auth } from "@/lib/auth";
 import { getUser } from "@/lib/data";
-async function getData() {
-  const res = await fetch(process.env.URL + "api", {
-    cache: "no-store",
-  });
-  if (!res.ok) {
-    throw new Error("something went wrong");
-  }
-}
+
 export default async function Dashboard() {
   const posts = await getPosts();
   const session = await auth();
@@ -28,7 +21,7 @@ export default async function Dashboard() {
         </p>
         <p>November 2024 (Exact dates to be announced)</p>
 
-        {user?.count >= 1 ? (
+        {user?.count >= 1 ?(
           <div className={styles.vote}>Already Voted!</div>
         ) : (
           <Link href="/dashboard/voting" className={styles.button}>
