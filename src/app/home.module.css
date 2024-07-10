@@ -81,7 +81,8 @@
 }
 .container {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
   padding: 50px;
 }
 .imgcontainer {
@@ -115,13 +116,11 @@
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
-
 }
 .msgcontainer span {
   display: block;
   opacity: 0;
   animation: cc 0.5s forwards var(--d);
- 
 }
 @keyframes cc {
   from {
@@ -177,10 +176,9 @@
 @media (max-width: 640px) {
   .msgcontainer {
     font-size: 2.2vh;
-
   }
   .textcontainer {
-    font-size:1.8vh;
+    font-size: 1.8vh;
   }
   .msg {
     font-size: 1.7vh;
