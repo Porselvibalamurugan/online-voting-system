@@ -115,14 +115,13 @@
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
+
 }
 .msgcontainer span {
   display: block;
   opacity: 0;
   animation: cc 0.5s forwards var(--d);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+ 
 }
 @keyframes cc {
   from {

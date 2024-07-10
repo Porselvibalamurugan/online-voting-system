@@ -17,3 +17,13 @@
     font-size: 5vw;
   }
 }
+
+@media (max-width: 365px) {
+  .container {
+    padding-top: 20px;
+    padding-left: 3px;
+  }
+  .logo {
+    font-size: 3.5vh;
+  }
+}

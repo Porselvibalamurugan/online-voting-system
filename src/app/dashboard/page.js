@@ -19,7 +19,7 @@ export default async function Dashboard() {
           A competition to determine the most popular character from the 'Demon
           Slayer' series.
         </p>
-        <p>November 2024 (Exact dates to be announced)</p>
+        <p>July 2024 (Exact dates to be announced)</p>
 
         {user?.count >= 1 ?(
           <div className={styles.vote}>Already Voted!</div>

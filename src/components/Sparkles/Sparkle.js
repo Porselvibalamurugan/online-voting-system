@@ -34,7 +34,6 @@ export default function Sparkle() {
         tweenDuration={1000}
         gravity={0.7}
       />
-      
     </div>
   );
 }
