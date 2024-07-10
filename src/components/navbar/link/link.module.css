@@ -47,4 +47,9 @@
     gap: 10px;
     z-index: 1000;
   }
+  @media (max-width: 365px) {
+    .mobileLinks {
+      font-size:2.5vh ;
+    }
+  }
 }

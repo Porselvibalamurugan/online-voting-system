@@ -12,3 +12,9 @@
     hsla(171, 87%, 67%, 1) 100%
   );
 }
+@media(max-width:365px){
+  .container{
+    padding: 10px 14px;
+    border-radius: 20px;
+}
+}
