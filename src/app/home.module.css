@@ -114,8 +114,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
+  flex-wrap: wrap;
 }
 .msgcontainer span {
   display: block;
@@ -135,6 +134,26 @@
   }
 }
 @media (max-width: 768px) {
+  @keyframes later {
+    0% {
+      opacity: 0;
+      width: 0px;
+    }
+    20% {
+      opacity: 1;
+      width: 0px;
+    }
+    30% {
+      width: 55vw;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      width: 55vw;
+    }
+  }
   .imgcontainer {
     display: none;
   }
@@ -158,15 +177,16 @@
 }
 @media (max-width: 640px) {
   .msgcontainer {
-    font-size: 2.7vw;
+    font-size: 2.2vh;
+
   }
   .textcontainer {
-    font-size: 3vw;
+    font-size:1.8vh;
   }
   .msg {
-    font-size: 2.6vw;
+    font-size: 1.7vh;
   }
   .welcome {
-    font-size: 4vw;
+    font-size: 2.1vh;
   }
 }

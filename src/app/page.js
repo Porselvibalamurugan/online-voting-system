@@ -7,7 +7,7 @@ export default function Home() {
       <header className={styles.head}>
         <div className={`${styles.welcome} ${styles.show}`}>Welcome</div>
         <div className={`${styles.welcome} ${styles.later}`}>
-          <span > to the Online Voting System </span>
+          <span>to the Online Voting System </span>
         </div>
         <p className={styles.msg}>
           Your voice matters! Cast your vote securely and easily.
@@ -25,20 +25,20 @@ export default function Home() {
         </div>
         <div className={styles.textcontainer}>
           <div>
-          <span style={{ "--d": "1s" }}>
-            Our online voting system provides a secure and
-          </span>
-          <span style={{ "--d": "1.5s" }}>
-            user-friendly platform for elections. Whether you're
-          </span>
-          <span style={{ "--d": "2.0s" }}>
-            voting for student council,board members, or any
-          </span>
-          <span style={{ "--d": "2.5s" }}>
-            other election, we ensure your vote is counted fairly
-          </span>
-          <span style={{ "--d": "3.0s" }}>and accurately.</span>
-        </div>
+            <span style={{ "--d": "1s" }}>
+              Our online voting system provides a secure and
+            </span>
+            <span style={{ "--d": "1.5s" }}>
+              user-friendly platform for elections. Whether you're
+            </span>
+            <span style={{ "--d": "2.0s" }}>
+              voting for student council,board members, or any
+            </span>
+            <span style={{ "--d": "2.5s" }}>
+              other election, we ensure your vote is counted fairly
+            </span>
+            <span style={{ "--d": "3.0s" }}>and accurately.</span>
+          </div>
         </div>
       </div>
       <div className={styles.msgcontainer}>
@@ -49,7 +49,6 @@ export default function Home() {
         <span style={{ "--d": "3s" }}>
           if you are an admin. Use the navigation links above to get started.
         </span>
-        
       </div>
     </div>
   );
